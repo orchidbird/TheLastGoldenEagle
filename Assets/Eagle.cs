@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 
 public class Eagle : MonoBehaviour {
-    public float speed = 3;
+    public float speed;
+    public float jumpPower;
     SpriteRenderer sprite;
 
     void Start() {
@@ -17,6 +18,11 @@ public class Eagle : MonoBehaviour {
         if (Input.GetKey(KeyCode.D)) {
             transform.Translate(Vector3.right*Time.deltaTime*speed);
             sprite.flipX = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity + Vector2.up * jumpPower;
         }
     }
 }
