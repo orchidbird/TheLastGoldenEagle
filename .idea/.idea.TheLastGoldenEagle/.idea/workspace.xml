@@ -2,8 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Eagle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Eagle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bunny.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bush1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bush1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle1-jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle1-jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2-jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2-jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2-walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2-walk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-fly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-fly.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3-walk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Golden eagle4.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Squral.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Squral.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WhitePanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WhitePanel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bird.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/crow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/crow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/elk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/elk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/fox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ground4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/loding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/loding.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main rogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main rogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/racoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/racoon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/squral2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/squral2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/swan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/swan.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/trap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/trap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/tree1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/tree1.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +73,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+            <state>
               <folding>
                 <marker date="1564811495927" expanded="true" signature="55:726" ph="{...}" />
                 <marker date="1564811495927" expanded="true" signature="154:210" ph="{...}" />
@@ -170,8 +226,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+        <state>
           <folding>
             <marker date="1564811495927" expanded="true" signature="55:726" ph="{...}" />
             <marker date="1564811495927" expanded="true" signature="154:210" ph="{...}" />
