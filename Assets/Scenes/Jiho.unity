@@ -1071,8 +1071,9 @@ GameObject:
   - component: {fileID: 1197792306}
   - component: {fileID: 1197792305}
   - component: {fileID: 1197792309}
+  - component: {fileID: 1197792310}
   m_Layer: 0
-  m_Name: Squrrel
+  m_Name: Squirrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1203,6 +1204,25 @@ MonoBehaviour:
   leftEnd: -900
   rightEnd: 10
   speed: 500
+--- !u!95 &1197792310
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197792304}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edd7519a055c07342b555a0379f41e3f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1477364302
 GameObject:
   m_ObjectHideFlags: 0
