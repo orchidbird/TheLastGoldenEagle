@@ -10,38 +10,36 @@ public class Eagle : MonoBehaviour {
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    enum MoveState{None, Jumping, Falling, Walking}
-    MoveState moveState;
+    enum AnimState{Stop, Jump, Walk}
+    AnimState animState;
     void Update() {
         if (Input.GetKey(KeyCode.A)) 
             HorizontalMove(false);
         if (Input.GetKey(KeyCode.D))
             HorizontalMove(true);
-
-        var animator = GetComponent<Animator>();
-        var rigid = GetComponent<Rigidbody2D>(); 
-        if (moveState == MoveState.None && Input.GetKeyDown(KeyCode.Space)) {
+        
+        var rigid = GetComponent<Rigidbody2D>();
+        
+        if (animState != AnimState.Jump && Input.GetKeyDown(KeyCode.Space))
             rigid.velocity = rigid.velocity + Vector2.up * jumpPower;
-            animator.SetTrigger("Jump");
-            moveState = MoveState.Jumping;
-        }
-
-        if (moveState == MoveState.Jumping && rigid.velocity.y < 0)
-            moveState = MoveState.Falling;
-        if (moveState != MoveState.None && rigid.velocity.y == 0) {
-            moveState = MoveState.None;
-            animator.SetTrigger("Jump");
-        }
-        if(moveState == MoveState.Walking && rigid.velocity.x == 0)
-            animator.SetTrigger("Stop");
+        
+        if (rigid.velocity.y != 0)
+            SetAnim(AnimState.Jump);
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) 
+            SetAnim(AnimState.Walk);
+        else
+            SetAnim(AnimState.Stop);
     }
 
     void HorizontalMove(bool right){
-        transform.Translate(right ? Vector3.right : Vector3.left *Time.deltaTime*speed);
+        transform.Translate((right ? Vector3.right : Vector3.left) *Time.deltaTime*speed);
         sprite.flipX = right;
-        if (moveState == MoveState.None) {
-            moveState = MoveState.Walking;
-            GetComponent<Animator>().SetTrigger("Walk");
-        }
+    }
+
+    void SetAnim(AnimState state) {
+        if(animState == state) return;
+        Debug.Log("Set Animation State To: " + state);
+        animState = state;
+        GetComponent<Animator>().SetTrigger(state.ToString());
     }
 }
