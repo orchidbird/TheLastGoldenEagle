@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Eagle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Eagle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle.controller" afterDir="false" />
-    </list>
+    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,28 +10,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="336">
+              <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
               <folding>
-                <marker date="1565417176223" expanded="true" signature="6:32" ph="..." />
-                <marker date="1565417176223" expanded="true" signature="69:1380" ph="{...}" />
-                <marker date="1565417176223" expanded="true" signature="168:224" ph="{...}" />
-                <marker date="1565417176223" expanded="true" signature="306:955" ph="{...}" />
-                <marker date="1565417176223" expanded="true" signature="992:1151" ph="{...}" />
-                <marker date="1565417176223" expanded="true" signature="1187:1378" ph="{...}" />
+                <marker date="1565417286773" expanded="true" signature="6:32" ph="..." />
+                <marker date="1565417286773" expanded="true" signature="69:1302" ph="{...}" />
+                <marker date="1565417286773" expanded="true" signature="168:224" ph="{...}" />
+                <marker date="1565417286773" expanded="true" signature="306:908" ph="{...}" />
+                <marker date="1565417286773" expanded="true" signature="945:1073" ph="{...}" />
+                <marker date="1565417286773" expanded="true" signature="1109:1300" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state>
               <folding>
                 <marker date="1565414022960" expanded="true" signature="57:743" ph="{...}" />
                 <marker date="1565414022960" expanded="true" signature="183:244" ph="{...}" />
@@ -71,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -127,12 +123,12 @@
       <workItem from="1564809789897" duration="606000" />
       <workItem from="1564810416289" duration="135000" />
       <workItem from="1564810569165" duration="2403000" />
-      <workItem from="1565409577424" duration="5198000" />
+      <workItem from="1565409577424" duration="5907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8342000" />
+    <option name="totallyTimeSpent" value="9051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -144,7 +140,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12877263" />
@@ -187,31 +183,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding>
+            <marker date="1565417286773" expanded="true" signature="6:32" ph="..." />
+            <marker date="1565417286773" expanded="true" signature="69:1302" ph="{...}" />
+            <marker date="1565417286773" expanded="true" signature="168:224" ph="{...}" />
+            <marker date="1565417286773" expanded="true" signature="306:908" ph="{...}" />
+            <marker date="1565417286773" expanded="true" signature="945:1073" ph="{...}" />
+            <marker date="1565417286773" expanded="true" signature="1109:1300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state>
           <folding>
             <marker date="1565414022960" expanded="true" signature="57:743" ph="{...}" />
             <marker date="1565414022960" expanded="true" signature="183:244" ph="{...}" />
             <marker date="1565414022960" expanded="true" signature="302:741" ph="{...}" />
             <marker date="1565414022960" expanded="true" signature="336:523" ph="{...}" />
             <marker date="1565414022960" expanded="true" signature="536:735" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <marker date="1565417176223" expanded="true" signature="6:32" ph="..." />
-            <marker date="1565417176223" expanded="true" signature="69:1380" ph="{...}" />
-            <marker date="1565417176223" expanded="true" signature="168:224" ph="{...}" />
-            <marker date="1565417176223" expanded="true" signature="306:955" ph="{...}" />
-            <marker date="1565417176223" expanded="true" signature="992:1151" ph="{...}" />
-            <marker date="1565417176223" expanded="true" signature="1187:1378" ph="{...}" />
           </folding>
         </state>
       </provider>
