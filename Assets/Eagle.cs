@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Eagle : MonoBehaviour {
     public float speed;
@@ -13,13 +14,19 @@ public class Eagle : MonoBehaviour {
     enum AnimState{Stop, Jump, Walk}
     AnimState animState;
     void Update() {
-        if (Input.GetKey(KeyCode.A)) 
-            HorizontalMove(false);
-        if (Input.GetKey(KeyCode.D))
-            HorizontalMove(true);
-        
         var rigid = GetComponent<Rigidbody2D>();
-        
+        var newVel = rigid.velocity;
+        if (Input.GetKey(KeyCode.A)) {
+            newVel.x = -speed;
+            sprite.flipX = false;
+        }else if (Input.GetKey(KeyCode.D)) {
+            newVel.x = speed;
+            sprite.flipX = true;
+        }else
+            newVel.x = 0;
+
+        rigid.velocity = newVel;
+
         if (animState != AnimState.Jump && Input.GetKeyDown(KeyCode.Space))
             rigid.velocity = rigid.velocity + Vector2.up * jumpPower;
         
@@ -38,8 +45,16 @@ public class Eagle : MonoBehaviour {
 
     void SetAnim(AnimState state) {
         if(animState == state) return;
-        Debug.Log("Set Animation State To: " + state);
         animState = state;
         GetComponent<Animator>().SetTrigger(state.ToString());
+    }
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Prey") {
+            Destroy(col.gameObject);
+            FindObjectOfType<StageManager>().preys--;
+        }else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0) {
+            SceneManager.LoadScene("Stage2");
+        }
     }
 }
