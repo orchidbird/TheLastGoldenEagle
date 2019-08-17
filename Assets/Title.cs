@@ -4,6 +4,6 @@ using UnityEngine.SceneManagement;
 public class Title : MonoBehaviour {
     void Update() {
         if (Input.anyKey)
-            SceneManager.LoadScene("Stage1");
+            SceneManager.LoadScene("Opening");
     }
 }
