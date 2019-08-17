@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/CustomSpriteAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomSpriteAnim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle1Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle1Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle1Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle1Jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle1Walk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle1Walk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle2Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle2Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle2Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle2Jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Eagle2Walk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Eagle2Walk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/background2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/background2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/main rogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/main rogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/background1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/background1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/background2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/background2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/background3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/background3.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Title.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Title.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,30 +62,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Title.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="336">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
-                <marker date="1566019245800" expanded="true" signature="6:53" ph="..." />
-                <marker date="1566019245800" expanded="true" signature="90:192" ph="{...}" />
-                <marker date="1566019245800" expanded="true" signature="110:190" ph="{...}" />
+                <marker date="1566024588265" expanded="true" signature="6:66" ph="..." />
+                <marker date="1566024588265" expanded="true" signature="103:987" ph="{...}" />
+                <marker date="1566024588265" expanded="true" signature="141:362" ph="{...}" />
+                <marker date="1566024588265" expanded="true" signature="214:356" ph="{...}" />
+                <marker date="1566024588265" expanded="true" signature="463:985" ph="{...}" />
+                <marker date="1566024588265" expanded="true" signature="626:907" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CustomSpriteAnim.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="208">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
-                <marker date="1566019712767" expanded="false" signature="6:78" ph="..." />
-                <marker date="1566019712767" expanded="true" signature="126:479" ph="{...}" />
-                <marker date="1566019712767" expanded="true" signature="248:477" ph="{...}" />
-                <marker date="1566019712767" expanded="true" signature="314:471" ph="{...}" />
+                <marker date="1566024363090" expanded="false" signature="6:113" ph="..." />
+                <marker date="1566024363090" expanded="true" signature="161:669" ph="{...}" />
+                <marker date="1566024363090" expanded="true" signature="279:342" ph="{...}" />
+                <marker date="1566024363090" expanded="true" signature="361:667" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -94,6 +111,12 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Tween</find>
+      <find>.R</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,8 +133,8 @@
         <option value="$PROJECT_DIR$/Assets/Squrrel.cs" />
         <option value="$PROJECT_DIR$/Assets/StageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Eagle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Title.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomSpriteAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Title.cs" />
       </list>
     </option>
   </component>
@@ -181,12 +204,12 @@
       <workItem from="1564810569165" duration="2403000" />
       <workItem from="1565409577424" duration="5907000" />
       <workItem from="1565422118408" duration="1278000" />
-      <workItem from="1566015414518" duration="3630000" />
+      <workItem from="1566015414518" duration="6338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13959000" />
+    <option name="totallyTimeSpent" value="16667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,27 +309,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Title.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Tween/Tween.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <marker date="1566019245800" expanded="true" signature="6:53" ph="..." />
-            <marker date="1566019245800" expanded="true" signature="90:192" ph="{...}" />
-            <marker date="1566019245800" expanded="true" signature="110:190" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-33">
+          <caret line="389" column="35" lean-forward="true" selection-start-line="389" selection-start-column="35" selection-end-line="389" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tween/Demo/TweenDemo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" column="67" lean-forward="true" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CustomSpriteAnim.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="208">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <marker date="1566019712767" expanded="false" signature="6:78" ph="..." />
-            <marker date="1566019712767" expanded="true" signature="126:479" ph="{...}" />
-            <marker date="1566019712767" expanded="true" signature="248:477" ph="{...}" />
-            <marker date="1566019712767" expanded="true" signature="314:471" ph="{...}" />
+            <marker date="1566024363090" expanded="false" signature="6:113" ph="..." />
+            <marker date="1566024363090" expanded="true" signature="161:669" ph="{...}" />
+            <marker date="1566024363090" expanded="true" signature="279:342" ph="{...}" />
+            <marker date="1566024363090" expanded="true" signature="361:667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Title.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <marker date="1566024588265" expanded="true" signature="6:66" ph="..." />
+            <marker date="1566024588265" expanded="true" signature="103:987" ph="{...}" />
+            <marker date="1566024588265" expanded="true" signature="141:362" ph="{...}" />
+            <marker date="1566024588265" expanded="true" signature="214:356" ph="{...}" />
+            <marker date="1566024588265" expanded="true" signature="463:985" ph="{...}" />
+            <marker date="1566024588265" expanded="true" signature="626:907" ph="{...}" />
           </folding>
         </state>
       </provider>

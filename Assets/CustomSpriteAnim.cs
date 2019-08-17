@@ -10,8 +10,8 @@ public class CustomSpriteAnim : MonoBehaviour {
     int spriteNumber;
     int currentCount;
 
-    void Awake() {
-        sprites = Resources.LoadAll<Sprite>(SceneManager.GetActiveScene().name);
+    void OnEnable() {
+        sprites = Resources.LoadAll<Sprite>("Opening");
     }
     void Update() {
         currentCount++;
