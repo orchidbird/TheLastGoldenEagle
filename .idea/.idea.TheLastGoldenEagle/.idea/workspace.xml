@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="" />
+    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheLastGoldenEagle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheLastGoldenEagle/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheLastGoldenEagle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheLastGoldenEagle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Eagle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Eagle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jiho.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jiho.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,24 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+            <state relative-caret-position="285">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <marker date="1565417286773" expanded="true" signature="6:32" ph="..." />
-                <marker date="1565417286773" expanded="true" signature="69:1302" ph="{...}" />
-                <marker date="1565417286773" expanded="true" signature="168:224" ph="{...}" />
-                <marker date="1565417286773" expanded="true" signature="306:908" ph="{...}" />
-                <marker date="1565417286773" expanded="true" signature="945:1073" ph="{...}" />
-                <marker date="1565417286773" expanded="true" signature="1109:1300" ph="{...}" />
+                <marker date="1566016186749" expanded="true" signature="6:32" ph="..." />
+                <marker date="1566016186749" expanded="true" signature="69:1316" ph="{...}" />
+                <marker date="1566016186749" expanded="true" signature="168:224" ph="{...}" />
+                <marker date="1566016186749" expanded="true" signature="332:977" ph="{...}" />
+                <marker date="1566016186749" expanded="true" signature="1014:1142" ph="{...}" />
+                <marker date="1566016186749" expanded="true" signature="1178:1314" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -67,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -124,11 +129,13 @@
       <workItem from="1564810416289" duration="135000" />
       <workItem from="1564810569165" duration="2403000" />
       <workItem from="1565409577424" duration="5907000" />
+      <workItem from="1565422118408" duration="1278000" />
+      <workItem from="1566015414518" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9051000" />
+    <option name="totallyTimeSpent" value="11142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -140,10 +147,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12877263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06505701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -185,15 +192,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+        <state relative-caret-position="285">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <marker date="1565417286773" expanded="true" signature="6:32" ph="..." />
-            <marker date="1565417286773" expanded="true" signature="69:1302" ph="{...}" />
-            <marker date="1565417286773" expanded="true" signature="168:224" ph="{...}" />
-            <marker date="1565417286773" expanded="true" signature="306:908" ph="{...}" />
-            <marker date="1565417286773" expanded="true" signature="945:1073" ph="{...}" />
-            <marker date="1565417286773" expanded="true" signature="1109:1300" ph="{...}" />
+            <marker date="1566016186749" expanded="true" signature="6:32" ph="..." />
+            <marker date="1566016186749" expanded="true" signature="69:1316" ph="{...}" />
+            <marker date="1566016186749" expanded="true" signature="168:224" ph="{...}" />
+            <marker date="1566016186749" expanded="true" signature="332:977" ph="{...}" />
+            <marker date="1566016186749" expanded="true" signature="1014:1142" ph="{...}" />
+            <marker date="1566016186749" expanded="true" signature="1178:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
