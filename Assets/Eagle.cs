@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Eagle : MonoBehaviour {
     public float speed;
@@ -46,5 +47,14 @@ public class Eagle : MonoBehaviour {
         if(animState == state) return;
         animState = state;
         GetComponent<Animator>().SetTrigger(state.ToString());
+    }
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Prey") {
+            Destroy(col.gameObject);
+            FindObjectOfType<StageManager>().preys--;
+        }else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0) {
+            SceneManager.LoadScene("Stage2");
+        }
     }
 }
