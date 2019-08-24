@@ -9,7 +9,6 @@ public class Credit : MonoBehaviour {
     public float waitAfterFinish;
     void Start() {
         velocity = (endPoint - transform.position.y) / GetComponent<AudioSource>().clip.length;
-        Debug.Log("올라가는 속도: " + velocity);
     }
 
     // Update is called once per frame
