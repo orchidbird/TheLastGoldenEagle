@@ -922,6 +922,16 @@ PrefabInstance:
       propertyPath: speed
       value: 450
       objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: flyable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: flyFallingSpeed
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 1085858237, guid: 073244ae3fb840547acde5f38dc95358, type: 3}
       propertyPath: m_Controller
       value: 
