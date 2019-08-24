@@ -2235,12 +2235,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 143.20393
       objectReference: {fileID: 0}
-    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7695883118925161080, guid: 5d24473c16ceb87439e5869c717f1a1b,
-        type: 3}
     - target: {fileID: 2609816895824429541, guid: 073244ae3fb840547acde5f38dc95358,
         type: 3}
       propertyPath: m_Size.x
@@ -2261,6 +2255,12 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.62
       objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7695883118925161080, guid: 5d24473c16ceb87439e5869c717f1a1b,
+        type: 3}
     - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
         type: 3}
       propertyPath: jumpPower
@@ -2641,8 +2641,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1963937575}
   - component: {fileID: 1963937574}
+  - component: {fileID: 1963937576}
   m_Layer: 0
-  m_Name: NEST
+  m_Name: Nest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2710,3 +2711,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1963937576
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963937573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.89, y: 0.24}
+    newSize: {x: 0.89, y: 0.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.89, y: 0.24}
+  m_EdgeRadius: 0
