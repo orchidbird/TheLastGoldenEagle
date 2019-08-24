@@ -10,6 +10,7 @@
         <e p="bird.cs" t="Include" />
         <e p="CustomSpriteAnim.cs" t="Include" />
         <e p="Eagle.cs" t="Include" />
+        <e p="GameOver.cs" t="Include" />
         <e p="Squrrel.cs" t="Include" />
         <e p="StageManager.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">

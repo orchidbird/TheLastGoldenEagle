@@ -36,6 +36,10 @@ public class Eagle : MonoBehaviour {
             SetAnim(AnimState.Walk);
         else
             SetAnim(AnimState.Stop);
+
+        var manager = FindObjectOfType<StageManager>();
+        if (transform.localPosition.y < manager.fallingLine)
+            manager.GameOver.SetActive(true);
     }
 
     void HorizontalMove(bool right){

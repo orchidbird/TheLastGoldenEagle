@@ -5,10 +5,10 @@ public class StageManager : MonoBehaviour {
     public int preys;
     public float timer;
 
-    public Text uiText;
-
+    public int fallingLine;
+    public GameObject GameOver;
     void Update() {
         timer -= Time.deltaTime;
-        uiText.text = "남은 먹이: " + preys + "\n남은 시간: " + (int) timer;
+        GetComponentInChildren<Text>().text = "남은 먹이: " + preys + "\n남은 시간: " + (int) timer;
     }
 }
