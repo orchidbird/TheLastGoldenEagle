@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 44550638}
   - component: {fileID: 44550637}
   m_Layer: 0
-  m_Name: WOLF-JUMP2_0
+  m_Name: Wolf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,8 +320,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44550636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8336.6875, y: 795.90173, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12000, y: -433, z: -2}
+  m_LocalScale: {x: 2000, y: 2000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -615,6 +615,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 935.57635
       objectReference: {fileID: 0}
+    - target: {fileID: 1203376567, guid: 073244ae3fb840547acde5f38dc95358, type: 3}
+      propertyPath: orthographic size
+      value: 1692.3522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5231569710858663385, guid: 333111b5eb58ff84f895e6b72ad108ab,
+        type: 3}
+    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.76
+      objectReference: {fileID: 0}
     - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
         type: 3}
       propertyPath: jumpPower
@@ -625,25 +645,20 @@ PrefabInstance:
       propertyPath: speed
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: flyable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2609816895824429540, guid: 073244ae3fb840547acde5f38dc95358,
+        type: 3}
+      propertyPath: flyFallingSpeed
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 1085858237, guid: 073244ae3fb840547acde5f38dc95358, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 83dbc9f73830ec14c996fc4554816374, type: 2}
-    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7799284584406492134, guid: a8ea7699d55694848b2ceef42fc270cd,
-        type: 3}
-    - target: {fileID: 2609816895824429544, guid: 073244ae3fb840547acde5f38dc95358,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1203376567, guid: 073244ae3fb840547acde5f38dc95358, type: 3}
-      propertyPath: orthographic size
-      value: 1692.3522
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 073244ae3fb840547acde5f38dc95358, type: 3}
 --- !u!1 &1481035522
@@ -656,7 +671,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1481035524}
   - component: {fileID: 1481035523}
-  - component: {fileID: 1481035525}
   m_Layer: 0
   m_Name: background3
   m_TagString: Untagged
@@ -726,22 +740,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1481035525
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481035522}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 532f84f6b13ccd44b8c59e274b8fecd7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

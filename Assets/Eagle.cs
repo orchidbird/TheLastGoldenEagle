@@ -63,17 +63,28 @@ public class Eagle : MonoBehaviour {
         GetComponent<Animator>().SetTrigger(state.ToString());
     }
 
+    int hp = 3;
+    int enemyHp = 5;
     void OnCollisionEnter2D(Collision2D col) {
         if (col.gameObject.tag == "Prey") {
             Destroy(col.gameObject);
             FindObjectOfType<StageManager>().preys--;
         }else if(col.gameObject.tag == "Trap")
             FindObjectOfType<StageManager>().GameOver.SetActive(true);
-        else if (col.gameObject.GetComponent<VerticalMovement>() != null)
+        else if (col.gameObject.name == "Wolf") {
+            if (transform.position.y > col.gameObject.transform.position.y + 500) {
+                enemyHp--;
+                if(enemyHp == 0)
+                    SceneManager.LoadScene("Ending");
+            }else {
+                hp--;
+                if(hp == 0)
+                    FindObjectOfType<StageManager>().GameOver.SetActive(true);
+            }
+        }else if (col.gameObject.GetComponent<VerticalMovement>() != null)
             transform.parent = col.gameObject.transform;
         else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0)
             LoadNextStage();
-        
     }
 
     void LoadNextStage() {
@@ -84,8 +95,6 @@ public class Eagle : MonoBehaviour {
             SceneManager.LoadScene("Stage3");
         else if(sceneName == "Stage3")
             SceneManager.LoadScene("Stage4");
-        else
-            SceneManager.LoadScene("Ending");
     }
 
     void OnCollisionExit2D(Collision2D col) {
