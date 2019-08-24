@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Eagle : MonoBehaviour {
     public float speed;
@@ -10,32 +11,50 @@ public class Eagle : MonoBehaviour {
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    enum JumpState{None, Up, Down}
-    JumpState jumping;
+    enum AnimState{Stop, Jump, Walk}
+    AnimState animState;
     void Update() {
+        var rigid = GetComponent<Rigidbody2D>();
+        var newVel = rigid.velocity;
         if (Input.GetKey(KeyCode.A)) {
-            transform.Translate(Vector3.left*Time.deltaTime*speed);
+            newVel.x = -speed;
             sprite.flipX = false;
-        }
-
-        if (Input.GetKey(KeyCode.D)) {
-            transform.Translate(Vector3.right*Time.deltaTime*speed);
+        }else if (Input.GetKey(KeyCode.D)) {
+            newVel.x = speed;
             sprite.flipX = true;
-        }
+        }else
+            newVel.x = 0;
 
-        var animator = GetComponent<Animator>();
-        var rigid = GetComponent<Rigidbody2D>(); 
-        if (jumping == JumpState.None && Input.GetKeyDown(KeyCode.Space)) {
+        rigid.velocity = newVel;
+
+        if (animState != AnimState.Jump && Input.GetKeyDown(KeyCode.Space))
             rigid.velocity = rigid.velocity + Vector2.up * jumpPower;
-            animator.SetTrigger("Jump");
-            jumping = JumpState.Up;
-        }
+        
+        if (rigid.velocity.y != 0)
+            SetAnim(AnimState.Jump);
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) 
+            SetAnim(AnimState.Walk);
+        else
+            SetAnim(AnimState.Stop);
+    }
 
-        if (jumping == JumpState.Up && rigid.velocity.y < 0)
-            jumping = JumpState.Down;
-        if (jumping != JumpState.None && rigid.velocity.y == 0) {
-            jumping = JumpState.None;
-            animator.SetTrigger("Jump");
+    void HorizontalMove(bool right){
+        transform.Translate((right ? Vector3.right : Vector3.left) *Time.deltaTime*speed);
+        sprite.flipX = right;
+    }
+
+    void SetAnim(AnimState state) {
+        if(animState == state) return;
+        animState = state;
+        GetComponent<Animator>().SetTrigger(state.ToString());
+    }
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Prey") {
+            Destroy(col.gameObject);
+            FindObjectOfType<StageManager>().preys--;
+        }else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0) {
+            SceneManager.LoadScene("Stage2");
         }
     }
 }
