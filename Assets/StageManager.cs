@@ -7,7 +7,12 @@ public class StageManager : MonoBehaviour {
 
     public int fallingLine;
     public GameObject GameOver;
-    public GameObject Eagle;
+    GameObject Eagle;
+
+    void Start() {
+        preys = GameObject.FindGameObjectsWithTag("Prey").Length;
+        Eagle = FindObjectOfType<Eagle>().gameObject;
+    }
     void Update() {
         timer -= Time.deltaTime;
         GetComponentInChildren<Text>().text = "남은 먹이: " + preys + "\n남은 시간: " + (int) timer;
