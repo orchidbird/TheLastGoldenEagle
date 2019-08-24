@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage1.unity" afterDir="false" />
-    </list>
+    <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/StageManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -97,13 +95,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="464">
+              <caret line="29" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <marker date="1565414022960" expanded="true" signature="57:743" ph="{...}" />
                 <marker date="1565414022960" expanded="true" signature="183:244" ph="{...}" />
                 <marker date="1565414022960" expanded="true" signature="302:741" ph="{...}" />
                 <marker date="1565414022960" expanded="true" signature="336:523" ph="{...}" />
                 <marker date="1565414022960" expanded="true" signature="536:735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/VerticalMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <marker date="1566622168731" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566622168731" expanded="true" signature="126:693" ph="{...}" />
+                <marker date="1566622168731" expanded="true" signature="288:691" ph="{...}" />
+                <marker date="1566622168731" expanded="true" signature="311:495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,6 +136,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VerticalMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Squrrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Title.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,6 +151,7 @@
         <option value="$PROJECT_DIR$/Assets/Title.cs" />
         <option value="$PROJECT_DIR$/Assets/StageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Eagle.cs" />
+        <option value="$PROJECT_DIR$/Assets/VerticalMovement.cs" />
       </list>
     </option>
   </component>
@@ -211,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18380000" />
+    <option name="totallyTimeSpent" value="18693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,19 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1565414022960" expanded="true" signature="57:743" ph="{...}" />
-            <marker date="1565414022960" expanded="true" signature="183:244" ph="{...}" />
-            <marker date="1565414022960" expanded="true" signature="302:741" ph="{...}" />
-            <marker date="1565414022960" expanded="true" signature="336:523" ph="{...}" />
-            <marker date="1565414022960" expanded="true" signature="536:735" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/StageManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -337,6 +340,33 @@
             <marker date="1566621272865" expanded="true" signature="1489:1785" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="1533:1635" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="1722:1779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Squrrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <marker date="1565414022960" expanded="true" signature="57:743" ph="{...}" />
+            <marker date="1565414022960" expanded="true" signature="183:244" ph="{...}" />
+            <marker date="1565414022960" expanded="true" signature="302:741" ph="{...}" />
+            <marker date="1565414022960" expanded="true" signature="336:523" ph="{...}" />
+            <marker date="1565414022960" expanded="true" signature="536:735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VerticalMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1566622168731" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566622168731" expanded="true" signature="126:693" ph="{...}" />
+            <marker date="1566622168731" expanded="true" signature="288:691" ph="{...}" />
+            <marker date="1566622168731" expanded="true" signature="311:495" ph="{...}" />
           </folding>
         </state>
       </provider>
