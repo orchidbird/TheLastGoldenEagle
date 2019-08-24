@@ -53,8 +53,15 @@ public class Eagle : MonoBehaviour {
         if (col.gameObject.tag == "Prey") {
             Destroy(col.gameObject);
             FindObjectOfType<StageManager>().preys--;
-        }else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0) {
+        }else if (col.gameObject.GetComponent<VerticalMovement>() != null)
+            transform.parent = col.gameObject.transform;
+        else if (col.gameObject.name == "Nest" && FindObjectOfType<StageManager>().preys == 0) {
             SceneManager.LoadScene("Stage2");
         }
+    }
+
+    void OnCollisionExit2D(Collision2D col) {
+        if (col.gameObject.GetComponent<VerticalMovement>() != null)
+            transform.parent = null;
     }
 }

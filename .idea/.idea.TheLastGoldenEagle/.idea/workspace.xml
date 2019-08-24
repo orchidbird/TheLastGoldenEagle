@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05749dc-fdb3-439a-b7c5-d7cb04aec83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stage2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stage2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StageManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/stage3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/stage3.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/stage4.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/stage4.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Eagle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Eagle.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +15,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="397">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding>
                 <marker date="1566621272865" expanded="true" signature="6:67" ph="..." />
-                <marker date="1566621272865" expanded="true" signature="104:1787" ph="{...}" />
+                <marker date="1566621272865" expanded="true" signature="104:1805" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="203:259" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="341:1105" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="466:542" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="576:650" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="1142:1270" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="1306:1442" ph="{...}" />
-                <marker date="1566621272865" expanded="true" signature="1489:1785" ph="{...}" />
+                <marker date="1566621272865" expanded="true" signature="1489:1803" ph="{...}" />
                 <marker date="1566621272865" expanded="true" signature="1533:1635" ph="{...}" />
-                <marker date="1566621272865" expanded="true" signature="1722:1779" ph="{...}" />
+                <marker date="1566621272865" expanded="true" signature="1740:1797" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -157,9 +152,9 @@
         <option value="$PROJECT_DIR$/Assets/Squrrel.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomSpriteAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Title.cs" />
-        <option value="$PROJECT_DIR$/Assets/Eagle.cs" />
         <option value="$PROJECT_DIR$/Assets/VerticalMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/StageManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Eagle.cs" />
       </list>
     </option>
   </component>
@@ -235,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20017000" />
+    <option name="totallyTimeSpent" value="20619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,20 +357,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Eagle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="397">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
             <marker date="1566621272865" expanded="true" signature="6:67" ph="..." />
-            <marker date="1566621272865" expanded="true" signature="104:1787" ph="{...}" />
+            <marker date="1566621272865" expanded="true" signature="104:1805" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="203:259" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="341:1105" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="466:542" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="576:650" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="1142:1270" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="1306:1442" ph="{...}" />
-            <marker date="1566621272865" expanded="true" signature="1489:1785" ph="{...}" />
+            <marker date="1566621272865" expanded="true" signature="1489:1803" ph="{...}" />
             <marker date="1566621272865" expanded="true" signature="1533:1635" ph="{...}" />
-            <marker date="1566621272865" expanded="true" signature="1722:1779" ph="{...}" />
+            <marker date="1566621272865" expanded="true" signature="1740:1797" ph="{...}" />
           </folding>
         </state>
       </provider>
