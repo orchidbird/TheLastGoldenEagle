@@ -3,20 +3,20 @@ guid: 5d24473c16ceb87439e5869c717f1a1b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2760586325957253967
-    second: Golden eagle3-jump_0
+      213: -7695883118925161080
+    second: Eagle3Jump_0
   - first:
-      213: 173139510472554
-    second: Golden eagle3-jump_1
+      213: 1633066427671815261
+    second: Eagle3Jump_1
   - first:
-      213: 4014582713088979915
-    second: Golden eagle3-jump_2
+      213: -6007581792511515300
+    second: Eagle3Jump_2
   - first:
-      213: 2890247660286243816
-    second: Golden eagle3-jump_3
+      213: 8021690436177502539
+    second: Eagle3Jump_3
   - first:
-      213: -7458803638739409266
-    second: Golden eagle3-jump_4
+      213: -2073438570375219111
+    second: Eagle3Jump_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -99,13 +99,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golden eagle3-jump_0
+      name: Eagle3Jump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
-        height: 76
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,20 +113,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8868b72b263fd28469c0025fef93f886
-      internalID: -2760586325957253967
+      spriteID: 34c6349c01dcfad49bc9f04103cbe523
+      internalID: -7695883118925161080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden eagle3-jump_1
+      name: Eagle3Jump_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 71
         y: 0
-        width: 80
-        height: 76
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4773425b1a925954787c9dc4501ef598
-      internalID: 173139510472554
+      spriteID: 6eea88c0772928349a9aae9da65be4eb
+      internalID: 1633066427671815261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden eagle3-jump_2
+      name: Eagle3Jump_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 142
         y: 0
-        width: 80
-        height: 76
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3733533274fb855468356fea518ea0ec
-      internalID: 4014582713088979915
+      spriteID: 61fa33f47e71b3640b9973d45d0249df
+      internalID: -6007581792511515300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden eagle3-jump_3
+      name: Eagle3Jump_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 213
         y: 0
-        width: 80
-        height: 76
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e30fb647063ab4abeb016f2b1a7ac4
-      internalID: 2890247660286243816
+      spriteID: ac0a6c7a7be061a49b895d6ef54792d8
+      internalID: 8021690436177502539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden eagle3-jump_4
+      name: Eagle3Jump_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 284
         y: 0
-        width: 80
-        height: 76
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a33b701e19800409d2b7cb092427e2
-      internalID: -7458803638739409266
+      spriteID: 1eb3d363585ac4747901e3f3cc695dfa
+      internalID: -2073438570375219111
       vertices: []
       indices: 
       edges: []
@@ -206,7 +206,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f264df97a02487e45883d96f5955159c
+    spriteID: 43f68a590359582449b4296324468251
     internalID: 0
     vertices: []
     indices: 
