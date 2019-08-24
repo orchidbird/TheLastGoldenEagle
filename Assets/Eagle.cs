@@ -74,10 +74,12 @@ public class Eagle : MonoBehaviour {
         else if (col.gameObject.name == "Wolf") {
             if (transform.position.y > col.gameObject.transform.position.y + 500) {
                 enemyHp--;
+                Debug.Log("적 체력: " + enemyHp);
                 if(enemyHp == 0)
                     SceneManager.LoadScene("Ending");
             }else {
                 hp--;
+                Debug.Log("내 체력: " + hp);
                 if(hp == 0)
                     FindObjectOfType<StageManager>().GameOver.SetActive(true);
             }

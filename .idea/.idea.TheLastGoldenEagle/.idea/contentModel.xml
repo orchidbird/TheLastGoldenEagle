@@ -44,6 +44,7 @@
         </e>
         <e p="Title.cs" t="Include" />
         <e p="VerticalMovement.cs" t="Include" />
+        <e p="Wolf.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
